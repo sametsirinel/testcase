@@ -118,7 +118,7 @@ class GameApiController extends Controller
 
     public function leaderBoard()
     {
-        $leaderBoards = $this->getLeaderBoard()
+        $leaderBoards = $this->getLeaderBoard(10)
             ->map(function ($x, $index) {
                 $x->position = $index + 1;
                 return $x;
