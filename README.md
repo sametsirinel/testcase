@@ -43,6 +43,4 @@ or
 docker-compose exec laravel.test php artisan migrate:fresh --seed 
 ```
 
-
-
 Postman collection is [here](./Caseproject.postman_collection.json) 
