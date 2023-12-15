@@ -45,4 +45,4 @@ docker-compose exec laravel.test php artisan migrate:fresh --seed
 
 
 
-
+Read more [here](./Caseproject.postman_collection.json) # Doesn't work
